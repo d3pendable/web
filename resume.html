@@ -9,7 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            /* Set the background image using a relative path to the images folder */
+            background-image: url('/images/hack.jpg');
+            /* Ensure the image covers the entire page */
+            background-size: cover;
+            /* Center the image on the page */
+            background-position: center;
+            /* Do not repeat the image */
+            background-repeat: no-repeat;
+            /* Fix the background image when scrolling */
+            background-attachment: fixed;
         }
         .container {
             max-width: 800px;
@@ -34,8 +43,7 @@
         }
     </style>
 </head>
-   <body>
-        
+<body>
     <div class="container">
         <h4>My Resume</h4>
         <p>(XXX) XXX-0493 | dennisbeck@duck.com | <a href="https://www.linkedin.com/in/dennis-beck007/">LinkedIn</a></p>
