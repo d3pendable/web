@@ -4,20 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/images/Designer.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex; /* Use flexbox to center content vertically and horizontally */
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <!-- Page 1: Hello -->
-    <div id="hello-page">
+    <div class="container">
+        <!-- Your existing content goes here -->
         <h1>Hello!</h1>
         <p>Welcome to my website. Feel free to explore!</p>
         <a href="resume.html">Visit my resume!</a>
     </div>
-
-    <!-- Page 2: Thanks -->
-    <div id="thanks-page">
-        <h1>Thanks for Stopping By!</h1>
-        <p>We appreciate your visit. Have a great day!</p>
-        <a href="index.html">Go Back to the Hello Page</a>
-    </div>
 </body>
 </html>
+
